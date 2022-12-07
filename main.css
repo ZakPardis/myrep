@@ -1,0 +1,117 @@
+/*
+apply font styles
+
+
+p {
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-style: italic;
+/*font-size: larger; 
+font-size: 200%;
+font-size: 40px;
+}
+
+*/
+body
+{
+    background-color: aqua;
+}
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+h2, h3, h4, .demo4 {
+    background-color: blueviolet;
+}
+
+  
+    .demo2
+    {
+        font-size: larger;
+        font-variant: normal;
+        font-style: oblique;
+        background-color: blue;
+    }
+    /*Shorthand - specifying all the font properties in one property. */
+    #demo{
+        font: 20px italic small-caps Georgia, Serif;
+
+    }
+
+.demo1{
+
+    color: blue; 
+
+}
+.demo2{
+
+  /*  background-color: brown; 
+  background-color: rgb(100, 50,50 );
+
+
+background-color: rgba(30, 30, 50, 0.3);
+*/
+background-color:hsla(10, 90%, 90%, 0.3); 
+
+}
+
+/*background Porperty
+background color - change the background color
+*/
+div{
+background-color: blueviolet;
+
+}
+body{
+    background-image: url("../Image/flower.jpg");
+    /*making image repeated
+    we can repeat a image vertically and horizantally
+    veritically : repeat-y
+    Horizentally: repeat-x
+
+    */
+   
+    background-repeat: no-repeat;
+
+    /*background positions
+to specify the position of the background
+*/
+    background-position: center center;
+
+    /*background attachement
+    the background to be scroll or fixed. 
+    */
+    background-attachment: scroll;
+
+    /*background shorthand - can apply all background property with one property*/
+    background: aqua url("../Image/Cake.ico") fixed no-repeat right top;
+;
+}
+
+
+    /*border style - specify the border style of elements*/
+    .demo2{
+
+        border-style: dashed;
+        border-width: 5px;
+        /*border style - top right bottom left*/
+        border-width: 7px 10px 3px 4px;
+    }
+    div{
+    
+        border-style:solid;
+        border-width: 5px;
+        /*border color
+        border-color:brown;
+        */
+        border-color: green black yellow brown;
+        /*border roudned - remove the corner corner from the border - */
+        border-radius: 20%;
+    
+        /*border shortand - apply all bordder property throght one property*/
+        
+    }
+    #demo{
+        border: 3px solid red;
+    }
+    
